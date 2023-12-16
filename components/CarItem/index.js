@@ -27,7 +27,7 @@ const CarItem = (props) => {
 
       <View style={styles.buttonsContainer}>
         <StyledButton
-          type="primary"
+          type="primary"    
           content={"Custom Order"}
           onPress={() => {
             console.warn("Custom Order was pressed");
